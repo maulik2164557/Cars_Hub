@@ -1,0 +1,206 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+      
+    body {
+        background: rgba(0,0,0,0.6) url('https://cdn-jaguarlandrover.com/api/v1/image/23926') ;
+        background-blend-mode: darken;
+        background-size: cover;
+        background-position: center;
+    }
+      
+    nav{
+        height: 90px;
+        border-bottom-color: aliceblue;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap ;
+        background-color: #0000009e;
+    }
+      
+    #logo2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 170%;
+        transform: rotate(360deg);
+        color: white;
+    }
+      
+    nav a{
+        margin: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 110%;
+        color: white;
+        transition: 2s;
+        position: relative;
+    }
+      
+    nav a:hover{
+        transform: scale(1.2);
+        transition: 1s;
+        color: rgba(235, 252, 78, 0.879);
+        transform: translate3d(-5px);
+    }
+      
+    #info1{
+        margin-left: 63%;
+    }
+      
+    #info2{
+        margin-left: 1%;
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin-top: 180px;
+        margin-left: 270px;
+        background: transparent;
+        background:rgba(18, 6, 6, 0.797);
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    
+    .container:hover{
+        transform: scale(1.1);
+        transition: 2s;
+        transform: translate3d(-5px);
+    }
+    
+    h2 {
+        font-size: 30px;
+        color: white;
+        text-shadow: 2px 2px 5px rgb(232, 230, 141);
+    }
+    
+    
+    li {
+        font-size: 20px;
+        font-weight: 100;
+        font-family: Georgia, serif;
+        color: #f5f0f0f8;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 18px;
+        font-family: Georgia, serif;
+        padding: 20px;
+        margin-top: 180px;
+        background-color: #0000009e; 
+        color: white;
+        position: relative;
+        text-shadow: 2px 2px 1.5px rgb(239, 57, 57);
+        bottom: 0;
+        width: 100%;
+      }
+
+    .sign-out-btn {
+        margin-top: 65px;
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-left: 720px;
+        color: white;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .sign-out-btn:hover {
+        background-color: #0056b3;
+    }
+    
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px;
+        font-size: 100%;
+    }
+
+    #logo2 {
+        font-size: 150%;
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 90%;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 80%;
+    }
+
+    #logo2 {
+        font-size: 120%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}

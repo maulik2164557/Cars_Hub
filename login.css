@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(0,0,0,0.5) url('https://images.hdqwalls.com/wallpapers/2020-mercedes-maybach-s-580-uk.jpg') center center fixed ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    height: 100px;
+    border-bottom-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap ;
+    background-color: #0000009e;
+}
+
+#logo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 170%;
+    transform: rotate(360deg);
+    color: white;
+}
+
+nav a{
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 110%;
+    color: white;
+    transition: 2s;
+    position: relative;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: rgba(235, 252, 78, 0.879);
+    transform: translate3d(-5px);
+}
+
+#info1{
+    margin-left: 63%;
+}
+
+#info2{
+    margin-left: 1%;
+}
+
+.content{
+    margin-top: 150px;
+    margin-left: 150px;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+.search{
+    background-color: #fff;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    background: transparent;
+    width: 500px;
+    outline: none;
+}
+
+.form{
+    width: 500px;
+    height: 480px;
+    position: center;
+    margin-top: 50px;
+    margin-left: 530px;
+    background:rgba(18, 6, 6, 0.627);
+    transform: rotate(360deg);
+}
+
+.form ::placeholder{
+    color: #fff;
+}
+
+
+.box input{
+    width: 75%;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 55px;
+    color: #fff;
+    padding: 13px 18px;
+    background: transparent;
+    border-bottom: 1px solid rgb(54, 49, 213);
+}
+
+.box1{
+    width: 75%;
+    text-align: center;
+    background-color:rgba(65, 62, 230, 0.779);
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 55px;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+.link1{
+    text-align: center;
+    margin-right: 1%;
+    margin-top: 15px;
+}
+
+.link1 a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;  
+}
+
+.link1:hover{
+    transform: scale(1.3);
+    transition: 2s;    
+}
+
+.box2{
+    width: 50%;
+    margin: 23%;
+    text-align: center;
+    margin-top: 80x;
+    background-color:rgba(65, 62, 230, 0.779);
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #0000009e; 
+    color: white;
+    position: relative;
+    text-shadow: 2px 2px 1.5px rgb(239, 57, 57);
+    bottom: 0;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px;
+        font-size: 100%;
+    }
+
+    #logo2 {
+        font-size: 150%;
+    }
+
+    .content {
+        margin-top: 100px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .form {
+        width: 90%;
+        height: auto;
+        margin: 50px auto;
+        transform: none;
+    }
+
+    .box input {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .box1 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 90%;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .form {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .box input {
+        font-size: 14px;
+    }
+
+    .box1 {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 80%;
+    }
+
+    #logo2 {
+        font-size: 120%;
+    }
+
+    .content {
+        margin-top: 50px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .box input {
+        font-size: 12px;
+    }
+
+    .box1 {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}

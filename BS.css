@@ -1,0 +1,258 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: rgba(0,0,0,0.5) url('https://s1.cdn.autoevolution.com/images/news/gallery/photo-gallery-bmw-i8-interior-at-night_8.jpg');
+    background-color: #f4f4f4;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    height: 100px;
+    border-bottom-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap ;
+    background-color: #0000009e;
+}
+
+#logo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 170%;
+    transform: rotate(360deg);
+    color: white;
+}
+
+nav a{
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 110%;
+    color: white;
+    transition: 2s;
+    position: relative;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: rgba(235, 252, 78, 0.879);
+    transform: translate3d(-5px);
+}
+
+#info1{
+    margin-left: 63%;
+}
+
+#info2{
+    margin-left: 1%;
+}
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.welcome-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 1.1rem;
+}
+
+.action-section {
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+.action-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.action-box:hover {
+    color: #000;
+    background: transparent;
+    background-color: rgba(202, 203, 198, 0.889);
+    transform: translateY(-5px);
+}
+
+.buy-box {
+    background: transparent;
+    background:rgba(18, 6, 6, 0.627);
+    color: #fff;
+}
+
+.sell-box {
+    background: transparent;
+    background:rgba(18, 6, 6, 0.627);
+    color: #fff;
+}
+
+button {
+    background-color:rgba(65, 62, 230, 0.779);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button:hover {
+    transform: matrix3d(-5px);
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    padding: 20px;
+    margin-top: 280px;
+    background-color: #0000009e; 
+    color: white;
+    position: relative;
+    text-shadow: 2px 2px 1.5px rgb(239, 57, 57);
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px;
+        font-size: 100%;
+    }
+
+    #logo2 {
+        font-size: 150%;
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .welcome-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .welcome-section p {
+        font-size: 1rem;
+    }
+
+    .action-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action-box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 90%;
+    }
+
+    .welcome-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .welcome-section p {
+        font-size: 0.9rem;
+    }
+
+    .action-box {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 80%;
+    }
+
+    #logo2 {
+        font-size: 120%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .welcome-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .welcome-section p {
+        font-size: 0.8rem;
+    }
+
+    .action-box {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 0.7rem;
+        padding: 5px 10px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}

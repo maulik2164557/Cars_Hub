@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Buying Form</title>
+    <link rel="stylesheet" href="buydata.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <nav>
+                <a id="logo2">Car Hub</a>
+                <a href="buy.html">Buy</a>
+                <a href="sell.html">Sell</a>
+                <a id="info1" href="contact.html">Contact us</a>
+                <a id="info2" href="#">About</a>
+            </nav>
+            
+        </div>
+    </header>
+
+    <div class="container">
+         <h2>"Start your journey to the perfect ride - submit your inquiry today..!"</h2>
+        <form action="buythank.html" method="get">
+            
+
+            <label for="model">Car Model (Year):</label>
+            <select id="year" name="year">
+                <option value="none">Select Year</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+            </select>
+
+            <label for="condition">Condition:</label>
+            <select id="condition" name="condition">
+                <option value="new">Select Condition</option>
+                <option value="new">New</option>
+                <option value="used">Second-Hand</option>
+            </select>
+
+            <label for="price">Budget Range:</label>
+            <select id="price" name="price">
+                <option value="none">Select Budget Range</option>
+                <option value="under-10k">Under 10 lakh</option>
+                <option value="10k-20k">10 - 20 lakh</option>
+                <option value="20k-40k">20 - 40 lakh</option>
+                <option value="40k-60k">40 - 60 lakh</option>
+                <option value="60k-80k">60 - 80 lakh</option>
+                <option value="80k-100k">80 lakh - 1 Cr.</option>
+                <option value="above-100k">above 1 Cr.</option>
+            </select>
+
+            <label for="fuel">Fuel Type:</label>
+            <select id="fuel" name="fuel">
+                <option value="Fuel type">Select Fuel Type</option>
+                <option value="petrol">Petrol</option>
+                <option value="diesel">Diesel</option>
+                <option value="electric">Electric</option>
+                <option value="hybrid">Hybrid</option>
+            </select>
+            
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Car Marketplace. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>

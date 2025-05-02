@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Car Buying and Selling</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header>
+    <div class="main">
+        <nav>
+            <a id="logo2">Car Hub</a>
+            <a href="buy.html">Buy</a>
+            <a href="sell.html">Sell</a>
+            <a id="info1" href="contact.html">Contact us</a>
+            <a id="info2" href="about.html">About</a>
+        </nav>
+        
+    </div>
+</header>
+
+  <div class="contact-container">
+    <h2>If you have any questions or inquiries about buying </h2>
+    <h3>or selling cars, feel free to reach out!</h3>
+    
+    <form action="contactthank.html" method="get" class="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+      </div>
+      
+      <div class="form-group">
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+
+       
+      <div class="form-group">
+        <select id="inquiry" name="inquiry" required >
+          <option value="">Select Inquiry Type</option>
+          <option value="buying">Buying a Car</option>
+          <option value="selling">Selling a Car</option>
+        </select>
+      </div> 
+      
+      <div class="form-group">
+        <input type="text" id="subject" name="subject" required placeholder="Subject of your message">
+      </div>
+      
+      <div class="form-group">
+        <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+      </div>
+      
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 Car Marketplace. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
